@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <script src="javaScript.js"></script>
+    <!--start Header-->
+
+    <div class="menu">
+        <div class="logo">
+            <h1 id="name">Gold's Gym</h1>
+        </div>
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li> <a href="gallery.html">Gallery</a> </li>
+            <li> <a href="contact.html">Contact</a> </li>
+            <li> <a href="register.html">Register</a> </li>
+            <li> <a href="">Login</a>
+
+        </ul>
+    </div>
+
+    <!--End Header-->
+
+    <!--Start login box-->
+    <form method="POST" name="form">
+        <div class="login-box">
+            <h1>Login</h1>
+            <div class="textbox">
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <input type="email" placeholder="Username" name="user" />
+            </div>
+
+            <div class="textbox">
+                <i class="fas fa-lock" aria-hidden="true"></i>
+                <input type="password" placeholder="Password" name="pass" />
+            </div>
+            <button class="btn" onclick="check(this.form)" type="submit"> <span>Sign in</span></button>
+
+        </div>
+    </form>
+    <!-- End login box-->
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <span>Copyright &copy;FCIS 2023</span>
+            <ul>
+                <i class="fab fa-facebook" style="color: #4267B2;"></i>
+                <i class="fab fa-twitter-square" style="color : #00acee;"></i>
+                <i class="fab fa-linkedin" style="color:#0e76a8;"></i>
+                <i class="fab fa-instagram-square" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"></i>
+                <i class="fab fa-google-plus" style="color : #db4a39;"></i>
+            </ul>
+        </div>
+    </div>
+    <!-- End footer-->
+    <script src="admin.js"></script>
+    <script src="login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+ :root {
+    --main-color: #112d42
+}
+
+.logo {
+    float: left;
+    display: block;
+    width: 20%;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+html,
+body,
+div,
+span,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+small,
+strong,
+sub,
+sup,
+b,
+u,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+header,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 14;
+    line-height: 25px;
+    color: #7a7a7a;
+}
+
+.section2-heading {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+.section2-heading h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #232d39;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section2-heading h2 em {
+    font-style: normal;
+    color: #ed563b;
+}
+
+.section2-heading img {
+    margin: 20px auto;
+}
+
+.menu {
+    width: 100%;
+    background: var(--main-color);
+    overflow: auto;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+    margin-left: 747px
+}
+
+.menu li {
+    float: left;
+}
+
+.menu ul li a {
+    background: var(--main-color);
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+.menu li a:hover {
+    color: #02f2f2;
+    opacity: 2;
+    font-size: 19px;
+}
+
+#features {
+    margin-bottom: 0px;
+}
+
+.feature-item {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.feature-item .left-icon img {
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.feature-item .right-content {
+    display: table;
+}
+
+.feature-item .right-content h4 {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    letter-spacing: 0.25px;
+    color: #232d39;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.feature-item .right-content p {
+    font-size: 14px;
+}
+
+.left .feature-item .right-content a {
+    color: #02b6f2;
+    display: inline;
+}
+
+.left .feature-item .right-content a:hover {
+    color: #232d39;
+}
+
+.right .feature-item .right-content a {
+    color: #02b6f2;
+}
+
+.right .feature-item .right-content a:hover {
+    color: #232d39;
+}
+
+.feature-item .right-content a.text-button {
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ed563b;
+    font-weight: 500;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.fitness li {
+    list-style: square;
+    margin-left: 30px;
+}
+
+.price {
+    width: 40%;
+    height: 70%;
+    text-align: center;
+    color: #fff;
+    background: #232d39;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    overflow: hidden;
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    /* Height of the footer */
+}
+
+.footer span {
+    float: left;
+    margin-top: -10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 50px;
+    margin: 0 5 0;
+    float: right;
+    margin-top: -10px;
+}
+
+.footer ul i {
+    display: inline-block;
+    width: 19px;
+}
